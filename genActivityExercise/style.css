@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Yuyu', monospace;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-wrapper {
+    background-color: aliceblue;
+    height: 80vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border: #dbeeff 15px solid;
+    border-radius: 10px;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    font-size: 45px;
+    margin: 0;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #abd8ff;
+    transition: transform 0.6s ease-in-out;
+    transform: scale(1);
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+#sel {
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 15px;
+    appearance: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 45px;
+    margin: 0;
+    height: 300px;
+}
+
+.activity {
+    border-radius: 10px;
+    border: #FFFFFF 6px solid;
+    background-color: #dbeeff;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1);
+    height: 320px;
+    width: 225px;
+}
+
+.activity:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 30px;
+    height: 300px;
+}
+
+.heart {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    width: 225px;
+    align-items: end;
+    height: 300px;
+    padding-bottom: 15px;
+}
